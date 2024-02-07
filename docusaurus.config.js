@@ -36,12 +36,17 @@ module.exports = {
   title: "Ghassen Haamdi",
   tagline:
     "I am a Software Engineer and Cloud Engineer passionate about solving meaningful problems.",
-  url: "https://evantay.com",
-  baseUrl: "/",
   onBrokenLinks: "throw",
   favicon: "img/logo.png",
-  organizationName: "digipie",
-  projectName: "GHASSEN-folio",
+  url: 'https://github.com',
+
+  baseUrl: '/portfolio/',
+
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
+  organizationName: 'ghassenHaamdi', // Usually your GitHub org/user name.
+  projectName: 'portfolio', // Usually your repo name.
+  deploymentBranch: "gh-pages",
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
