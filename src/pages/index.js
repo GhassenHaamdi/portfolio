@@ -32,12 +32,11 @@ function Home() {
           className={styles.heroBannerWrapper}
           style={{ minHeight: bannerHeight, display: isLoading ? "none" : "block" }}
         >
-          <p>Hi, my name is</p>
-          <h1 className="text-success">Ghassen Haamdi</h1>
+          <p>Bonjour, je suis</p>
+          <h1 className="text-success">Ghassen Hamdi</h1>
           <p>
-            I am a <span className="text-warning">Software Engineer</span> and{" "}
-            <span className="text-danger">Cloud Engineer</span> passionate about
-            solving meaningful problems.
+             <span className="text-warning">Enseignant</span> et{" "}
+            <span className="text-danger">Docteur en Informatique.</span> 
           </p>
       <br></br>
           <p>
@@ -57,59 +56,21 @@ function Home() {
           <div>
             <img
               className={styles.aboutProfilePic}
-              src={useBaseUrl("img/profilepic.jpg")}
+              src={useBaseUrl("img/photo.jpg")}
             />
           </div>
           <div className={styles.aboutText}>
-            <h2>Hi</h2>
+            <h2>Salut!</h2>
             <p>
-              🇸🇬 I am Evan, a Full Stack Software Engineer and Certified Cloud
-              Engineer based in Singapore.
+              🇹🇳 Je suis Ghassen Hamdi, Docteur en informatique. Basé à Sousse, Tunisie.
             </p>
             <p>
-              🚀 I love building cool and meaningful things with tech like {" "}
-              <Link to={useBaseUrl("projects/")}>
-                websites, applications or games
-              </Link>
-              .
+            👨‍🎓 Titulaire d'un doctorat en informatique  de l'Institut supérieur d'informatique et des technologies de communication de Hamman Sousse, Tunisie  le 12 décembre 2020.
             </p>
             <p>
-              🌏 To me, coding is the closest thing to magic we have on Earth.
+            🖥️ Membre du laboratoire de recherche MARS (Modeling of Automated Reasoning Systems).
             </p>
-            <p>
-              👨‍💻 I have been writing beautiful code at <a href="https://padlet.com">Padlet</a>{" "}
-              since 2021.
-            </p>
-            <p>
-              🎒 I was a{" "}
-              <a href="https://www.comp.nus.edu.sg/programmes/ug/cs/">
-                Computer Science major
-              </a>{" "}
-              at the{" "}
-              <a href="https://www.comp.nus.edu.sg/">
-                National University of Singapore
-              </a>{" "}
-              from 2017 to 2020.
-            </p>
-            <p>
-              🧑‍🏫 Back then, I was a{" "}
-              <a href="https://github.com/DigiPie/CS1010-Tutorial-C09">
-                Teaching Assistant
-              </a>{" "}
-              for Programming Methodology and Networking courses.
-            </p>
-            <p>
-              🛼 I was also Deputy Head of
-              Technology for the{" "}
-              <a href="https://dscnustech.github.io/">
-                NUS Google Developer Student Club
-              </a>
-              , and President of the{" "}
-              <a href="https://www.instagram.com/nusskating/">
-                NUS Skating Club
-              </a>
-              . 
-            </p>
+ 
           </div>
         </div>
         <section className={styles.directory}>

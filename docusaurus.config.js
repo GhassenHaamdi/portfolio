@@ -28,14 +28,14 @@ const internetProfiles = {
   },
   resume: {
     label: "CV",
-    href: "https://evantay.com/pdf/resume.pdf",
+    href: "https://ghassenhaamdi.github.io/portfolio/pdf/resume.pdf",
   },
 };
 
 module.exports = {
   title: "Ghassen Haamdi",
   tagline:
-    "I am a Software Engineer and Cloud Engineer passionate about solving meaningful problems.",
+    "Enseignant et docteur en informatique.",
   onBrokenLinks: "throw",
   favicon: "img/logo.png",
   url: 'https://github.com',
@@ -55,9 +55,9 @@ module.exports = {
     },
     navbar: {
       hideOnScroll: true,
-      title: "Ghassen Haamdi",
+      title: "Ghassen Hamdi",
       logo: {
-        alt: "Ghassen Haamdi",
+        alt: "Ghassen Hamdi",
         src: "img/logo.png",
         target: "_self",
       },
@@ -81,7 +81,7 @@ module.exports = {
           position: "right",
         },
         {
-          href: "https://evantay.com/pdf/resume.pdf",
+          href: "https://ghassenhaamdi.github.io/portfolio/pdf/resume.pdf",
           label: "CV",
           position: "right",
         },
