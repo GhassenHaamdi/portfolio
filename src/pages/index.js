@@ -94,7 +94,7 @@ function Home() {
               <div className="pagination-nav__item">
                 <Link
                   className="pagination-nav__link"
-                  to={useBaseUrl("projects/")}
+                  to={useBaseUrl("pdf/rapportsc.pdf")}
                 >
                   <div className="pagination-nav__sublabel">Consulter</div>
                   <div className="pagination-nav__label">Mon Rapport Scientifique</div>
@@ -103,10 +103,10 @@ function Home() {
               <div className="pagination-nav__item">
                 <Link
                   className="pagination-nav__link"
-                  href={useBaseUrl("pdf/resume.pdf")}
+                  href={useBaseUrl("pdf/rapportpeda.pdf")}
                 >
                   <div className="pagination-nav__sublabel">Consulter</div>
-                  <div className="pagination-nav__label">Mon Rapport Scientifique</div>
+                  <div className="pagination-nav__label">Mon Rapport Pédagogique</div>
                 </Link>
               </div>
               <div style={{ display: 'flex', justifyContent: 'center', width: '200%' }}>

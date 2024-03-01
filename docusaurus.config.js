@@ -20,11 +20,11 @@ const internetProfiles = {
   },
   rapportPeda: {
     label: "Rapport Pédagogique",
-    href: "https://evantay.com/pdf/resume.pdf",
+    href: "https://ghassenhaamdi.github.io/portfolio/pdf/rapportpeda.pdf",
   },
   rapportSc: {
     label: "Rapport Scientifique",
-    href: "https://evantay.com/pdf/resume.pdf",
+    href: "https://ghassenhaamdi.github.io/portfolio/pdf/rapportsc.pdf",
   },
   resume: {
     label: "CV",
@@ -71,12 +71,12 @@ module.exports = {
         },
         { to: "projects/", label: "Projects", position: "right" },
         {
-          href: "https://evantay.com/pdf/resume.pdf",
+          href: "https://ghassenhaamdi.github.io/portfolio/pdf/rapportsc.pdf",
           label: "Rapport Scientifique",
           position: "right",
         },
         {
-          href: "https://evantay.com/pdf/resume.pdf",
+          href: "https://ghassenhaamdi.github.io/portfolio/pdf/rapportpeda.pdf",
           label: "Rapport Pédagogique",
           position: "right",
         },
@@ -132,7 +132,7 @@ module.exports = {
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: "https://github.com/DigiPie/kaya-folio/tree/main/website/",
+          editUrl: "https://github.com/GhassenHaamdi/portfolio",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
