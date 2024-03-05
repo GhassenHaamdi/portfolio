@@ -78,15 +78,15 @@ function Home() {
             <h3>Poursuivre l'exploration?</h3>
             <nav className="pagination-nav">
               <div className="pagination-nav__item">
-                <Link className="pagination-nav__link" to={useBaseUrl("blog/")}>
-                  <div className="pagination-nav__sublabel">Read</div>
-                  <div className="pagination-nav__label">My blog</div>
+                <Link className="pagination-nav__link" to={useBaseUrl("pdf/pubs.pdf")}>
+                  <div className="pagination-nav__sublabel">Consulter</div>
+                  <div className="pagination-nav__label">Mes Publications</div>
                 </Link>
               </div>
               <div className="pagination-nav__item pagination-nav__item--next">
                 <Link className="pagination-nav__link" to={useBaseUrl("docs/")}>
-                  <div className="pagination-nav__sublabel">Refer to</div>
-                  <div className="pagination-nav__label">My docs</div>
+                  <div className="pagination-nav__sublabel">Consulter</div>
+                  <div className="pagination-nav__label">My Cours</div>
                 </Link>
               </div>
             </nav>

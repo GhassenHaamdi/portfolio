@@ -10,26 +10,26 @@ module.exports = {
     colors: {
       white: "#fff",
       primary: {
-        300: "#13cc72",
-        400: "#11b565",
-        500: "#10ad61",
-        600: "#0f9d58",
-        default: "#0f9d58",
-        700: "#0d8d4f",
-        800: "#0d854b",
-        900: "#0a6e3e",
+        300: "#c0c0c0", // Light gray
+        400: "#a9a9a9",
+        500: "#808080", // Medium gray
+        600: "#696969",
+        default: "#696969",
+        700: "#404040", // Dark gray
+        800: "#333333",
+        900: "#1a1a1a",
       },
       secondary: {
-        300: "#ededed",
-        400: "#d4d4d4",
-        500: "#adadad",
-        600: "#878787",
-        default: "#878787",
-        700: "#616161",
-        800: "#141414",
-        900: "#0d0d0d",
+        300: "#c0c0c0", // Light gray
+        400: "#a9a9a9",
+        500: "#808080", // Medium gray
+        600: "#696969",
+        default: "#696969",
+        700: "#404040", // Dark gray
+        800: "#333333",
+        900: "#1a1a1a",
       },
-      success: "#0d8d4f",
+      success: "#333333", // Change success color to blue
       warning: "#f4b400",
       danger: "#db4437",
     },

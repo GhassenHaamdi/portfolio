@@ -3,20 +3,20 @@ const katex = require("rehype-katex");
 
 const internetProfiles = {
   linkedin: {
-    label: "LinkedIn",
-    href: "https://www.linkedin.com/in/evanitsg/",
+    label: "Google Scholar",
+    href: "https://scholar.google.com/citations?hl=en&user=1Z1MI44AAAAJ&view_op=list_works&sortby=pubdate",
   },
   email: {
     label: "Email",
-    href: "mailto:evan.it.sg@gmail.com",
+    href: "mailto:hamdighassan@gmail.com",
   },
   pubs: {
     label: "Liste des publications",
-    to: "docs",
+    href: "https://ghassenhaamdi.github.io/portfolio/pdf/pubs.pdf",
   },
   cours: {
     label: "Cours",
-    to: "blog",
+    to: "docs",
   },
   rapportPeda: {
     label: "Rapport Pédagogique",
@@ -62,14 +62,14 @@ module.exports = {
         target: "_self",
       },
       items: [
-        { to: "blog/", label: "Cours", position: "left" },
+        { to: "docs/", label: "Cours", position: "left" },
         {
-          to: "docs/",
           activeBasePath: "docs",
           label: "Publications",
+          href: "https://ghassenhaamdi.github.io/portfolio/pdf/resume.pdf",
+
           position: "left",
         },
-        { to: "projects/", label: "Projects", position: "right" },
         {
           href: "https://ghassenhaamdi.github.io/portfolio/pdf/rapportsc.pdf",
           label: "Rapport Scientifique",

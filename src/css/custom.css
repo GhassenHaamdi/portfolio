@@ -7,30 +7,57 @@
  @tailwind base;
  @tailwind components;
  @tailwind utilities;
-
-/* You can override the default Infima variables here. */
-:root {
-  --ifm-color-primary: #0f9d58;
-  --ifm-color-primary-dark: #0d8d4f;
-  --ifm-color-primary-darker: #0d854b;
-  --ifm-color-primary-darkest: #0a6e3e;
-  --ifm-color-primary-light: #10ad61;
-  --ifm-color-primary-lighter: #11b565;
-  --ifm-color-primary-lightest: #13cc72;
-  --ifm-color-secondary: #878787;
-  --ifm-color-secondary-dark: #616161;
-  --ifm-color-secondary-darker: #141414;
-  --ifm-color-secondary-darkest: #0d0d0d;
-  --ifm-color-secondary-light: #adadad;
-  --ifm-color-secondary-lighter: #d4d4d4;
-  --ifm-color-secondary-lightest: #ededed;
-  --ifm-navbar-background-color: #141414;
-  --ifm-background-color: #141414;
-  --ifm-color-success: #0f9d58;
-  --ifm-color-warning: #f4b400;
-  --ifm-color-danger: #db4437;
-  --ifm-link-color: #0f9d58;
+ :root {
+  --ifm-color-primary: #000000; /* Cheerful red */
+  --ifm-color-primary-dark: #000000;
+  --ifm-color-primary-darker: #000000;
+  --ifm-color-primary-darkest: #000000;
+  --ifm-color-primary-light: #000000;
+  --ifm-color-primary-lighter: #000000;
+  --ifm-color-primary-lightest: #000000;
+  --ifm-color-secondary: #62B6CB; /* Light blue */
+  --ifm-color-secondary-dark: #438E9E;
+  --ifm-color-secondary-darker: #306D7C;
+  --ifm-color-secondary-darkest: #B3E5FC; /* Cooler and lighter blue */
+  --ifm-color-secondary-light: #83D3E8;
+  --ifm-color-secondary-lighter: #A2E8F1;
+  --ifm-color-secondary-lightest: #C1F3FA;
+  --ifm-navbar-background-color: #333333  ; /* Change navbar color to light blue */
+  --ifm-background-color: #f2f2f2; /* Lighter background color */
+  --ifm-color-success: #4CAF50; /* Green */
+  --ifm-color-warning: #000000; /* Yellow */
+  --ifm-color-danger: #000000; /* Pink */
+  --ifm-link-color: #EF476F; /* Change link color to pink */
   --ifm-code-font-size: 95%;
+}
+/**
+:root {
+  --ifm-color-primary: #FF6B6B; 
+  --ifm-color-primary-dark: #CC444B;
+  --ifm-color-primary-darker: #A8333D;
+  --ifm-color-primary-darkest: #7F272D;
+  --ifm-color-primary-light: #000000;
+  --ifm-color-primary-lighter: #FFA5A5;
+  --ifm-color-primary-lightest: #FFC1C1;
+  --ifm-color-secondary: #62B6CB; 
+  --ifm-color-secondary-dark: #438E9E;
+  --ifm-color-secondary-darker: #306D7C;
+  --ifm-color-secondary-darkest: #B3E5FC; 
+  --ifm-color-secondary-light: #83D3E8;
+  --ifm-color-secondary-lighter: #A2E8F1;
+  --ifm-color-secondary-lightest: #C1F3FA;
+  --ifm-navbar-background-color: #333333  ; 
+  --ifm-background-color: #f2f2f2; 
+  --ifm-color-success: #4CAF50; 
+  --ifm-color-warning: #FFD166; 
+  --ifm-color-danger: #EF476F; 
+  --ifm-link-color: #EF476F; 
+  --ifm-code-font-size: 95%;
+}
+*/
+
+.text-black {
+  color: #000000; /* Black */
 }
 
 .docusaurus-highlight-code-line {

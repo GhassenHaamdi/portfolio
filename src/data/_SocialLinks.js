@@ -4,8 +4,8 @@ import { faGithub, faLinkedin, faPadlet } from "@fortawesome/free-brands-svg-ico
 const socialLinks = [
   {
     faIcon: faLinkedin,
-    alt: "Linkedin",
-    url: "https://www.linkedin.com/in/evanitsg/",
+    alt: "Google Scholar",
+    url: "https://scholar.google.com/citations?hl=en&user=1Z1MI44AAAAJ&view_op=list_works&sortby=pubdate",
   },
   {
     faIcon: faGithub,
@@ -20,7 +20,7 @@ const socialLinks = [
   {
     faIcon: faPaperPlane,
     alt: "Email",
-    url: "mailto:evan.it.sg@gmail.com",
+    url: "mailto:hamdighassan@gmail.com",
   },
 ];
 
