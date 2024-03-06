@@ -66,7 +66,7 @@ module.exports = {
         {
           activeBasePath: "docs",
           label: "Publications",
-          href: "https://ghassenhaamdi.github.io/portfolio/pdf/resume.pdf",
+          href: "https://ghassenhaamdi.github.io/portfolio/pdf/pubs.pdf",
 
           position: "left",
         },
