@@ -78,10 +78,10 @@ function Home() {
             <h3>Poursuivre l'exploration?</h3>
             <nav className="pagination-nav">
               <div className="pagination-nav__item">
-                <Link className="pagination-nav__link" href={useBaseUrl("pdf/pubs.pdf")}>
+                <a className="pagination-nav__link" href={useBaseUrl("pdf/pubs.pdf")}>
                   <div className="pagination-nav__sublabel">Consulter</div>
                   <div className="pagination-nav__label">Mes Publications</div>
-                </Link>
+                </a>
               </div>
               <div className="pagination-nav__item pagination-nav__item--next">
                 <Link className="pagination-nav__link" to={useBaseUrl("docs/")}>
@@ -92,22 +92,22 @@ function Home() {
             </nav>
             <nav className="pt-4 pagination-nav">
               <div className="pagination-nav__item">
-                <Link
+                <a
                   className="pagination-nav__link"
                   href={useBaseUrl("pdf/rapportsc.pdf")}
                 >
                   <div className="pagination-nav__sublabel">Consulter</div>
                   <div className="pagination-nav__label">Mon Rapport Scientifique</div>
-                </Link>
+                </a>
               </div>
               <div className="pagination-nav__item">
-                <Link
+             <a
                   className="pagination-nav__link"
                   href={useBaseUrl("pdf/rapportpeda.pdf")}
                 >
                   <div className="pagination-nav__sublabel">Consulter</div>
                   <div className="pagination-nav__label">Mon Rapport Pédagogique</div>
-                </Link>
+              </a>
               </div>
               <div style={{ display: 'flex', justifyContent: 'center', width: '200%' }}>
 
