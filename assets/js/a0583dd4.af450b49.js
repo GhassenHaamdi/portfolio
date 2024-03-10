@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkevantay_com=self.webpackChunkevantay_com||[]).push([[8038],{8397:function(a){a.exports=JSON.parse('{"label":"ci","permalink":"/portfolio/blog/tags/ci","allTagsPath":"/portfolio/blog/tags","count":1}')}}]);

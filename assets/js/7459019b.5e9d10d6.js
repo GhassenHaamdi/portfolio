@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkevantay_com=self.webpackChunkevantay_com||[]).push([[4576],{7031:function(a){a.exports=JSON.parse('{"label":"github-action","permalink":"/portfolio/blog/tags/github-action","allTagsPath":"/portfolio/blog/tags","count":1}')}}]);
