@@ -78,7 +78,7 @@ function Home() {
             <h3>Poursuivre l'exploration?</h3>
             <nav className="pagination-nav">
               <div className="pagination-nav__item">
-                <Link className="pagination-nav__link" to={useBaseUrl("pdf/pubs.pdf")}>
+                <Link className="pagination-nav__link" href={useBaseUrl("pdf/pubs.pdf")}>
                   <div className="pagination-nav__sublabel">Consulter</div>
                   <div className="pagination-nav__label">Mes Publications</div>
                 </Link>
@@ -94,7 +94,7 @@ function Home() {
               <div className="pagination-nav__item">
                 <Link
                   className="pagination-nav__link"
-                  to={useBaseUrl("pdf/rapportsc.pdf")}
+                  href={useBaseUrl("pdf/rapportsc.pdf")}
                 >
                   <div className="pagination-nav__sublabel">Consulter</div>
                   <div className="pagination-nav__label">Mon Rapport Scientifique</div>
